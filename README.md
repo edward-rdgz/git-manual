@@ -173,8 +173,9 @@ Git es un sistema de control de versiones muy potente y sin duda el más usado e
 
 - Se aplica en GitHub Web en ramificaciones diferentes a la rama maestra.
 
+# Eliminar un archivo de un repositorio Git.
 
-
+- 
 
 
 
