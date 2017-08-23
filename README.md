@@ -1,4 +1,4 @@
-# Git
+# Manual de control de versiones Git.
 
 Git es un sistema de control de versiones muy potente y sin duda el más usado en la actualidad.
 
@@ -40,7 +40,7 @@ Git es un sistema de control de versiones muy potente y sin duda el más usado e
 
 	git push origin master
 
-# Crear alias de comandos en git
+# Crear alias de comandos en Git
 
 - Configuración de alias en línea de comandos
 
