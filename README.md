@@ -2,47 +2,47 @@
 
 Git es un sistema de control de versiones muy potente y sin duda el más usado en la actualidad.
 
-# Primeros pasos con Git y GitHub
+# Primeros pasos con Git y GitHub.
 
-- Configuración de variables globales
+- Configuración de variables globales.
 
 	git config --global user.name "username"
 
 	git config --global user.email my@email.com
 
-- Inicialización de repositorio
+- Inicialización de repositorio.
 	
 	git init
 
-- Clonación de repositorio remoto a local
+- Clonación de repositorio remoto a local.
 	
 	git remote add origin https://github.com/username/project_name.git
 
 	git pull origin master
 
-- Obtención de estado(s) de archivo(s)
+- Obtención de estado(s) de archivo(s).
 
 	git status
 
-- Agregación de archivo
+- Agregación de archivo.
 
 	git add filename.extesion
 
-- Agregación de más de un archivo
+- Agregación de más de un archivo.
 
 	git add -A
 
-- Perpetración de archivos locales en repositorio remoto
+- Perpetración de archivos locales en repositorio remoto.
 
 	git commit -m "Action message"
 
-- Expedición de archivos a repositorio remoto
+- Expedición de archivos a repositorio remoto.
 
 	git push origin master
 
-# Crear alias de comandos en Git
+# Crear alias de comandos en Git.
 
-- Configuración de alias en línea de comandos
+- Configuración de alias en línea de comandos.
 
 	git config --global alias.[alias] "[comando]"
 
@@ -69,7 +69,7 @@ Git es un sistema de control de versiones muy potente y sin duda el más usado e
 			git ci
 			git config --global alias.ci "commit"
 
-- Configuración de alias directamente en el fichero .gitconfig
+- Configuración de alias directamente en el fichero .gitconfig.
 
 	Example:
 
@@ -85,13 +85,13 @@ Git es un sistema de control de versiones muy potente y sin duda el más usado e
 
 	    l = log
 
-# Clone y fork con Git y GiHub
+# Clone y Fork con Git y GiHub.
 
-- Clonación de repositorio
+- Clonación de repositorio.
 
 	git clone https://github.com/username/project_name.git
 
-- Bifurcación de repositorio
+- Empalme de repositorio.
 
 	git init
 
@@ -99,9 +99,9 @@ Git es un sistema de control de versiones muy potente y sin duda el más usado e
 
 	git pull origin master
 
-# Flujos y zonas por las que pasa un fichero en un repositorio Git
+# Flujos y zonas por las que pasa un fichero en un repositorio Git.
 
-- Zonas:
+- Zonas
 	
 	HEAD
 
@@ -109,15 +109,15 @@ Git es un sistema de control de versiones muy potente y sin duda el más usado e
 
 	Working Tree or Unstaged Files
 
-- Reinicio o limpieza de indices
+- Reinicio o limpieza de indices.
 
 	git reset HEAD
 
-- Haciendo una segunda expedición en una sola operación
+- Haciendo una segunda expedición en una sola operación.
 
 	git commit -a -m "filename.extension, new_lines"
 
-# Guardar y recuperar cambios con Git
+# Deshacer y recuperar cambios con Git.
 
 - Recuperación de cambios locales a guardar uno por uno.
 
@@ -127,8 +127,43 @@ Git es un sistema de control de versiones muy potente y sin duda el más usado e
 
 	git stash list
 
+- Despliega el contenido del cambio localmente.
+
 	git stash show -p stash@{number}
 
+- Aplica la recuperación de cambias a guardar localmente.
+
+	git stash apply stash@{number}
+
+- Elimina todos los cambios a guardar localmente.
+
+	git stash drop
+
+# Sistema de ramificaciones en Git.
+
+- Muestra todas las ramas del repositorio.
+
+	git branch
+
+- Creación de una rama.
+
+	git branch branch_name
+
+- Moverse entre ramas.
+
+	git checkout branch_name
+
+- Fusionar una rama local.
+
+	git merge branch_name
+
+- Eliminar una rama local.
+
+	git branch -D branch_name
+
+- Renombrar una rama local.
+
+	git branch -m branch_name_old branch_name_new
 
 
 
