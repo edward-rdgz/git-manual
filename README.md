@@ -101,7 +101,7 @@ Git es un sistema de control de versiones muy potente y sin duda el más usado e
 
 # Flujos y zonas por las que pasa un fichero en un repositorio Git.
 
-- Zonas:
+- Zonas
 	
 	HEAD
 
@@ -145,7 +145,25 @@ Git es un sistema de control de versiones muy potente y sin duda el más usado e
 
 	git branch
 
-- Creación de rama(s).
+- Creación de una rama.
+
+	git branch branch_name
+
+- Moverse entre ramas.
+
+	git checkout branch_name
+
+- Fusionar una rama.
+
+	git merge branch_name
+
+- Eliminar una rama local.
+
+	git branch -D branch_name
+
+- Renombrar una rama local.
+
+
 
 
 
