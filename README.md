@@ -117,7 +117,7 @@ Git es un sistema de control de versiones muy potente y sin duda el más usado e
 
 	git commit -a -m "filename.extension, new_lines"
 
-# Deshacer y recuperar cambios con Git.
+# Guardar y recuperar cambios con Git.
 
 - Recuperación de cambios locales a guardar uno por uno.
 
@@ -169,6 +169,9 @@ Git es un sistema de control de versiones muy potente y sin duda el más usado e
 
 - Ignorar archivos a través de .gitignore.
 
+# Pull request en GitHub
+
+- 
 
 
 
