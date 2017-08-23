@@ -165,6 +165,12 @@ Git es un sistema de control de versiones muy potente y sin duda el más usado e
 
 	git branch -m branch_name_old branch_name_new
 
+# Exclusión de ficheros en un repositorio Git.
+
+- Ignorar archivos a través de .gitignore.
+
+
+
 
 
 Source: https://styde.net/aprende-git/
