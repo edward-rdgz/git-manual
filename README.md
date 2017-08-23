@@ -153,6 +153,10 @@ Git es un sistema de control de versiones muy potente y sin duda el más usado e
 
 	git checkout branch_name
 
+- Crear y moverse a una nueva rama al instante.
+
+	git checkout -b branch_name
+
 - Fusionar una rama local.
 
 	git merge branch_name
