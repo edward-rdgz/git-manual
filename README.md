@@ -119,21 +119,15 @@ Git es un sistema de control de versiones muy potente y sin duda el más usado e
 
 # Guardar y recuperar cambios con Git
 
-- Recuperación de cambios locales a guardar.
+- Recuperación de cambios locales a guardar uno por uno.
 
 	git stash
 
+- Listado de cambios guardados localmente.
 
+	git stash list
 
-
-
-
-
-
-
-
-
-
+	git stash show -p stash@{number}
 
 
 
