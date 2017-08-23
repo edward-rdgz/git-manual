@@ -171,7 +171,9 @@ Git es un sistema de control de versiones muy potente y sin duda el más usado e
 
 # Pull request en GitHub
 
-- 
+- Se aplica en GitHub Web en ramificaciones diferentes a la rama maestra.
+
+
 
 
 
