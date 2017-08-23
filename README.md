@@ -119,6 +119,10 @@ Git es un sistema de control de versiones muy potente y sin duda el más usado e
 
 # Guardar y recuperar cambios con Git
 
+- Recuperación de cambios en archivos
+
+	git stash
+
 
 
 
